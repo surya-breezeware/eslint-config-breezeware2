@@ -1,0 +1,40 @@
+
+
+module.exports={
+    plugins:['react'],
+    extends:[
+        'eslint:recommended',
+        'plugin:react/recommended',
+        'plugin:react-hooks/recommended',
+        'plugin:jsx-a11y/recommended',
+        'plugin:prettier/recommended',
+        'prettier/react'
+    ],
+    parser:'babel-eslint',
+    settings:{
+        react:{
+            version:'detect'
+        }
+    },
+    parserOptions:{
+        ecmaVersion:2020,
+        sourceType:'module',
+        ecmaFeatures:{
+            jsx:true
+        }
+    },
+    rules:{
+        'prettier/prettier':[
+            'error',
+            {
+                semi:false,
+                singleQuote:true,
+                printWidth:130,
+                tabWidth:2,
+                jsxSingleQuote:false,
+                trailingComma:'none',
+                arrowParens:'avoid'
+            }
+        ]
+    }
+}

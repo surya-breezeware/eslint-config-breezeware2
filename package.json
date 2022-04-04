@@ -1,0 +1,53 @@
+{
+  "name": "eslint-config-breezeware2",
+  "version": "1.0.0",
+  "description": "eslint/prettier",
+  "private":false,
+  "main": "index.js",
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "config",
+    "prettier"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surya-breezeware/eslint-config-breezeware2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surya-breezeware/eslint-config-breezeware2/issues"
+  },
+  "homepage": "https://github.com/surya-breezeware/eslint-config-breezeware2#readme",
+  "peerDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "prettier": "^2.6.2"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "prettier": "^2.6.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
